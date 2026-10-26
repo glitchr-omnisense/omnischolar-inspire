@@ -1,6 +1,6 @@
 # omnischolar/inspire
 
-INSPIRE-HEP for [omniscient/omnischolar](https://github.com/glitchr-studio/omnischolar): high-energy
+INSPIRE-HEP for [omnisense/omnischolar](https://github.com/glitchr-omnisense/omnischolar): high-energy
 physics. An author's profile - by INSPIRE record, BAI or ORCID - with their positions and
 INSPIRE's citation summary (citations, h-index); their literature with citation counts, arXiv
 ids, DOIs and journal references; a paper by its INSPIRE record, DOI or arXiv id; a search in
