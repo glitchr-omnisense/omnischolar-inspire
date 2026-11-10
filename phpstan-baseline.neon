@@ -1,0 +1,619 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Argument of an invalid type mixed supplied for foreach, only iterables are supported\.$#'
+			identifier: foreach.nonIterable
+			count: 7
+			path: InspireSource.php
+
+		-
+			message: '#^Binary operation "\." between ''\-'' and mixed results in an error\.$#'
+			identifier: binaryOp.invalid
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Binary operation "\." between ''https\://arxiv\.org…'' and mixed results in an error\.$#'
+			identifier: binaryOp.invalid
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Binary operation "\." between ''https\://inspirehep…'' and mixed results in an error\.$#'
+			identifier: binaryOp.invalid
+			count: 2
+			path: InspireSource.php
+
+		-
+			message: '#^Binary operation "\." between mixed and string results in an error\.$#'
+			identifier: binaryOp.invalid
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''affiliations'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''all'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 2
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''artid'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''arxiv_categories'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''buckets'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''categories'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''citation_summary'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''citations'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''citations_count'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''control_number'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 2
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''current'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''doc_count'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''end_date'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''full_name'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''h\-index'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''hits'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 2
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''ids'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 3
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''inspire_roles'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''institution'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''journal_issue'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''journal_title'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 2
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''journal_volume'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''name'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''name_variants'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''native_names'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''next'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''page_end'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''page_start'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''positions'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''preferred_name'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''publisher'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''rank'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''schema'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 3
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''start_date'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''subtitle'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''title'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''total'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''urls'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''value'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 13
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset ''year'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 2
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot access offset 0 on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 8
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot cast mixed to int\.$#'
+			identifier: cast.int
+			count: 2
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 17
+			path: InspireSource.php
+
+		-
+			message: '#^Method Omnischolar\\Inspire\\InspireSource\:\:authorRecord\(\) should return array\<string, mixed\>\|null but returns array\|null\.$#'
+			identifier: return.type
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Method Omnischolar\\Inspire\\InspireSource\:\:authorRecord\(\) should return array\<string, mixed\>\|null but returns mixed\.$#'
+			identifier: return.type
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Only iterables can be unpacked, mixed given in argument \#2\.$#'
+			identifier: argument.unpackNonIterable
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Only iterables can be unpacked, mixed given\.$#'
+			identifier: arrayUnpacking.nonIterable
+			count: 2
+			path: InspireSource.php
+
+		-
+			message: '#^Parameter \#1 \$array of function array_unique expects an array of values castable to string, list\<mixed\> given\.$#'
+			identifier: argument.type
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Parameter \#1 \$array of function usort expects TArray of array\<array\>, mixed given\.$#'
+			identifier: argument.type
+			count: 2
+			path: InspireSource.php
+
+		-
+			message: '#^Parameter \#1 \$callback of function array_map expects \(callable\(mixed\)\: mixed\)\|null, ''strval'' given\.$#'
+			identifier: argument.type
+			count: 2
+			path: InspireSource.php
+
+		-
+			message: '#^Parameter \#1 \$callback of function array_map expects \(callable\(mixed\)\: mixed\)\|null, Closure\(array\)\: Omnischolar\\Model\\Work given\.$#'
+			identifier: argument.type
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Parameter \#1 \$callback of function array_map expects \(callable\(mixed\)\: mixed\)\|null, Closure\(array\)\: mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Parameter \#1 \$callback of function array_map expects \(callable\(mixed\)\: mixed\)\|null, Closure\(array\)\: string given\.$#'
+			identifier: argument.type
+			count: 2
+			path: InspireSource.php
+
+		-
+			message: '#^Parameter \#1 \$m of method Omnischolar\\Inspire\\InspireSource\:\:toWork\(\) expects array\<string, mixed\>, mixed given\.$#'
+			identifier: argument.type
+			count: 2
+			path: InspireSource.php
+
+		-
+			message: '#^Parameter \#1 \$text of static method Omnischolar\\Source\\HttpSource\:\:text\(\) expects string\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 3
+			path: InspireSource.php
+
+		-
+			message: '#^Parameter \#1 \$works of class Omnischolar\\Source\\Page constructor expects list\<Omnischolar\\Model\\Work\>, array\<Omnischolar\\Model\\Work\> given\.$#'
+			identifier: argument.type
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Parameter \#2 \$array of function array_map expects array, mixed given\.$#'
+			identifier: argument.type
+			count: 5
+			path: InspireSource.php
+
+		-
+			message: '#^Parameter \#2 \$haystack of function in_array expects array, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Parameter \#2 \$value of static method Omnischolar\\Model\\Identifier\:\:tryOf\(\) expects string\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 6
+			path: InspireSource.php
+
+		-
+			message: '#^Parameter \#3 \$total of class Omnischolar\\Source\\Page constructor expects int\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Parameter \$citations of class Omnischolar\\Model\\Work constructor expects int\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Parameter \$current of class Omnischolar\\Model\\Affiliation constructor expects bool\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Parameter \$domains of class Omnischolar\\Model\\Work constructor expects list\<string\>, list\<mixed\> given\.$#'
+			identifier: argument.type
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Parameter \$end of class Omnischolar\\Model\\Affiliation constructor expects string\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Parameter \$hIndex of class Omnischolar\\Model\\Metrics constructor expects int\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Parameter \$issue of class Omnischolar\\Model\\Work constructor expects string\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Parameter \$language of class Omnischolar\\Model\\Work constructor expects string\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Parameter \$publisher of class Omnischolar\\Model\\Work constructor expects string\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Parameter \$start of class Omnischolar\\Model\\Affiliation constructor expects string\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Parameter \$urls of class Omnischolar\\Model\\Author constructor expects list\<string\>, list\<mixed\> given\.$#'
+			identifier: argument.type
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Parameter \$volume of class Omnischolar\\Model\\Work constructor expects string\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Parameter \$works of class Omnischolar\\Model\\Metrics constructor expects int\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: InspireSource.php
+
+		-
+			message: '#^Cannot cast mixed to float\.$#'
+			identifier: cast.double
+			count: 1
+			path: InspireSourceFactory.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 1
+			path: InspireSourceFactory.php
+
+		-
+			message: '#^Cannot access property \$affiliations on Omnischolar\\Model\\Author\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/InspireSourceTest.php
+
+		-
+			message: '#^Cannot access property \$citations on Omnischolar\\Model\\Metrics\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/InspireSourceTest.php
+
+		-
+			message: '#^Cannot access property \$citations on Omnischolar\\Model\\Work\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/InspireSourceTest.php
+
+		-
+			message: '#^Cannot access property \$family on Omnischolar\\Model\\Author\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/InspireSourceTest.php
+
+		-
+			message: '#^Cannot access property \$given on Omnischolar\\Model\\Author\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/InspireSourceTest.php
+
+		-
+			message: '#^Cannot access property \$hIndex on Omnischolar\\Model\\Metrics\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/InspireSourceTest.php
+
+		-
+			message: '#^Cannot access property \$identifiers on Omnischolar\\Model\\Author\|null\.$#'
+			identifier: property.nonObject
+			count: 2
+			path: Tests/InspireSourceTest.php
+
+		-
+			message: '#^Cannot access property \$identifiers on Omnischolar\\Model\\Work\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/InspireSourceTest.php
+
+		-
+			message: '#^Cannot access property \$keywords on Omnischolar\\Model\\Author\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/InspireSourceTest.php
+
+		-
+			message: '#^Cannot access property \$metrics on Omnischolar\\Model\\Author\|null\.$#'
+			identifier: property.nonObject
+			count: 3
+			path: Tests/InspireSourceTest.php
+
+		-
+			message: '#^Cannot access property \$name on Omnischolar\\Model\\Author\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/InspireSourceTest.php
+
+		-
+			message: '#^Cannot access property \$name on Omnischolar\\Model\\Venue\|null\.$#'
+			identifier: property.nonObject
+			count: 2
+			path: Tests/InspireSourceTest.php
+
+		-
+			message: '#^Cannot access property \$pages on Omnischolar\\Model\\Work\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/InspireSourceTest.php
+
+		-
+			message: '#^Cannot access property \$pdfUrl on Omnischolar\\Model\\Work\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/InspireSourceTest.php
+
+		-
+			message: '#^Cannot access property \$title on Omnischolar\\Model\\Work\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/InspireSourceTest.php
+
+		-
+			message: '#^Cannot access property \$venue on Omnischolar\\Model\\Work\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/InspireSourceTest.php
+
+		-
+			message: '#^Cannot access property \$volume on Omnischolar\\Model\\Work\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/InspireSourceTest.php
+
+		-
+			message: '#^Cannot access property \$works on Omnischolar\\Model\\Metrics\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/InspireSourceTest.php
+
+		-
+			message: '#^Cannot access property \$year on Omnischolar\\Model\\Work\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/InspireSourceTest.php
+
+		-
+			message: '#^Cannot call method affiliations\(\) on Omnischolar\\Model\\Author\|null\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: Tests/InspireSourceTest.php
+
+		-
+			message: '#^Cannot call method doi\(\) on Omnischolar\\Model\\Work\|null\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: Tests/InspireSourceTest.php
+
+		-
+			message: '#^Cannot call method orcid\(\) on Omnischolar\\Model\\Author\|null\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: Tests/InspireSourceTest.php
+
+		-
+			message: '#^Parameter \#1 \$haystack of function str_starts_with expects string, array\<mixed\>\|string given\.$#'
+			identifier: argument.type
+			count: 1
+			path: Tests/InspireSourceTest.php
+
+		-
+			message: '#^Property Omnischolar\\Inspire\\Tests\\InspireSourceTest\:\:\$calls \(list\<array\{string, array\<string, string\>\}\>\) does not accept non\-empty\-list\<array\{string, array\<int\|string, array\<mixed\>\|string\>\}\>\.$#'
+			identifier: assign.propertyType
+			count: 1
+			path: Tests/InspireSourceTest.php

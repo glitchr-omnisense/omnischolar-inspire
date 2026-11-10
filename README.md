@@ -21,6 +21,17 @@ omnischolar:
 
 See [docs/](docs/index.md).
 
+## Usage policy
+
+Declared as data in [`policy.json`](policy.json) (read at https://github.com/inspirehep/rest-api-doc on 2026-11-10), and honoured on every request by the
+core: a limit reached waits when its window ends within `max_wait` seconds, else the request is not
+sent ([Usage policies](https://github.com/glitchr-omnisense/omnischolar/blob/1.x/docs/policies.md)).
+
+- Limits: 15 every 5 seconds per client-ip.
+- Licence: CC0-1.0; commercial use: unknown.
+- Credit: not required: Moskovic, M. (2021). The INSPIRE REST API. Zenodo. https://doi.org/10.5281/zenodo.5788550 (https://github.com/inspirehep/rest-api-doc).
+- Needs: nothing.
+
 ## Responsibility
 
 This package is an independent, unofficial client: it is not affiliated with, endorsed by or

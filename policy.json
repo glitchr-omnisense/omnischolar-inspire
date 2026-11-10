@@ -1,0 +1,47 @@
+{
+    "$schema": "https://github.com/glitchr-omnisense/contracts/blob/1.x/resources/usage-policy.schema.json",
+    "provider": "inspire",
+    "rateLimits": [
+        {
+            "max": 15,
+            "window": "second",
+            "every": 5,
+            "scope": "client-ip",
+            "operations": [],
+            "note": "\"Every IP address is allowed 15 requests in a 5s window\"; a 429 answers beyond it, blocked requests count towards the quota: wait at least 5 s after a 429."
+        }
+    ],
+    "concurrency": null,
+    "rights": {
+        "commercial": "unknown",
+        "openSourceRequired": null,
+        "caching": {
+            "permission": "allowed",
+            "maxTtl": null
+        },
+        "storage": "allowed",
+        "redistribution": "unknown",
+        "attribution": {
+            "required": false,
+            "text": "Moskovic, M. (2021). The INSPIRE REST API. Zenodo. https://doi.org/10.5281/zenodo.5788550",
+            "url": "https://github.com/inspirehep/rest-api-doc",
+            "where": []
+        },
+        "licence": "CC0-1.0"
+    },
+    "requirements": {
+        "key": false,
+        "userAgent": {
+            "required": false,
+            "pattern": null
+        }
+    },
+    "provenance": {
+        "terms": "https://help.inspirehep.net/knowledge-base/terms-of-use/",
+        "policy": "https://github.com/inspirehep/rest-api-doc",
+        "verifiedAt": "2026-11-10",
+        "declaredBy": "maintainer",
+        "contact": "https://help.inspirehep.net/knowledge-base/contact-us/",
+        "notes": "Read on 2026-11-10: the REST API documentation (15 requests per 5 s per IP; please cite Moskovic:2021zjs in scholarly work, a request) and the terms of use: most metadata under the CC0 waiver, except abstracts whose source is arXiv or CERN, author-supplied keywords and INSPIRE-schema keywords; downloading e-mail addresses is not permitted; reconstructing full texts from snippets is not allowed; the service is 'provided free of charge for educational and informational use' (commercial use not addressed: unknown). Redistribution left unknown because the abstracts this package reads may fall in the excluded fields. No rate-limit headers seen on a test call."
+    }
+}
