@@ -21,6 +21,14 @@ omnischolar:
 
 See [docs/](docs/index.md).
 
+## Install
+
+```sh
+composer require omnischolar/inspire
+```
+
+It brings the family's core, `omnisense/omnischolar`, and `omnisense/contracts` with it. No account and no key; a `mailto` of yours ([`policy.json`](policy.json)). `$http` is `HttpClient::create()` in plain PHP.
+
 ## Usage policy
 
 Declared as data in [`policy.json`](policy.json) (read at https://github.com/inspirehep/rest-api-doc on 2026-11-10), and honoured on every request by the
